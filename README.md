@@ -90,7 +90,7 @@ SSH into the control node and follow the steps below:
 - Copy the ansible.cfg file to /etc/ansible. Update the ansible.cfg file to include to user name, VM IPs and ansible_python_interpreter=/usr/bin/python3 to the hosts & in the ansible.cfg.
 - Copy the filebeat-config.yml file and run filebeat-playbook.yml.
 - Copy the metricbeat-config.yml file and fun metricbeat-playbook.yml.
-- After running the playbook, and navigate to kibana website to check that the installation worked as expected by verifying that data has succesfully loaded as illustrated in the two images below:
+- After running the playbook navigate to kibana website to check that the installation worked as expected by verifying that data has succesfully loaded as illustrated in the two images below:
 
 ![TODO: Update the path with the name of your screenshot of filebeat data loading](Diagrams/filebeatSuccesfullyloaded.png)
 
