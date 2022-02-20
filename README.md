@@ -68,7 +68,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+![TODO: Update the path with the name of your screenshot of docker ps output](Diagrams/DockerPSoutput.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -90,4 +90,8 @@ SSH into the control node and follow the steps below:
 - Copy the ansible.cfg file to /etc/ansible. Update the ansible.cfg file to include to user name, VM IPs and ansible_python_interpreter=/usr/bin/python3 to the hosts & in the ansible.cfg.
 - Copy the filebeat-config.yml file and run filebeat-playbook.yml.
 - Copy the metricbeat-config.yml file and fun metricbeat-playbook.yml.
-- After running the playbook, and navigate to kibana website to check that the installation worked as expected.
+- After running the playbook, and navigate to kibana website to check that the installation worked as expected by verifying that data has succesfully loaded as illustrated in the two images below:
+
+![TODO: Update the path with the name of your screenshot of filebeat data loading](Diagrams/filebeatSuccesfullyloaded.png)
+
+![TODO: Update the path with the name of your screenshot of metricbeat data loading](Diagrams/metricBeatSuccesfullyloaded.png)
